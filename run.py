@@ -2,4 +2,4 @@ from routes import index, register, search, user, index5, index1, edit_user, del
 from ext import app
 
 
-app.run()
+app.run(host="0.0.0.0")
